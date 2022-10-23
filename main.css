@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: Lato; sans-serif;
+}
+.wrapper {
+    width: 1370px;
+    margin: 0 auto;
+}
+.hedar { height: 85px;
+    border-bottom: 1px solid #d6d6d6
+
+}
+.first_logo {
+margin-top: 31px;
+float: left;
+}
+.first_nav {
+     float: left;
+     margin-top: 35px;
+     margin-left: 20px;
+}
+.first_login {
+    float: right;
+    margin-top: 35px;
+}
+.first_nav ul {
+list-style: none;
+}
+.first_nav ul li {
+    display: inline-block;
+    padding-right: 90px;
+}
+.first_nav ul li:last-of-type {
+margin-right: 0;
+}
+.first_nav a, .first_login a {
+    color: #292929;
+    text-decoration: none;
+}
+.button {
+    background-color: #019960;
+    padding: 13px 50px;
+    border-radius: 4px;
+    transition: background-color .2c;
+
+}
+.button:hover {
+    background-color: #018565;
+
+}
+.button:active {
+    background-color: #018456;
+    
+}
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 768px;}
+
+    .hedar {
+        height: 128px;}
+
+    .first_nav {
+        margin-top: 17px;
+        width: 100%;
+    }
+    .first_nav ul li {
+        margin-right: 150px;
+    }
+}
+@media (max-width: 320px) {
+    .first_logo,
+    .first_nav,
+    .first_login
+    { }
+}
